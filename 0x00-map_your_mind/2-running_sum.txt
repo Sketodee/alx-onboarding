@@ -1,0 +1,21 @@
+p3 = x;
+}
+else if(y < x && y < z){
+p3 = y;
+}
+else if(z < x && z < y){
+p3 = z;
+}
+//___________________________________ Mid number
+if( p1 != x && p3!= x ){
+p2 = x;
+}
+else if( p1 != y && p3!= y ){
+p2 = y;
+}
+else if( p1 != z && p3!= z ){
+p2 = z;
+}
+cout<<endl<<"Numbers in arrange : "<<p3<<" "<<p2<<" "<<p1<<endl;
+return 0;
+}

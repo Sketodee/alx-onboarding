@@ -1,0 +1,4 @@
+input1 = input(“Number one: “)
+input2 = input(“Number two: “)
+sum_of_squares = (Input1*Input1) + (Input2*Input2)
+Print out sum_of_squares
